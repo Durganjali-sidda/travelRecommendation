@@ -162,6 +162,10 @@
     <a href="#" class="btn">BOOK NOW</a>
   </div>
 
+  <!-- Recommendations Section -->
+  <div id="recommendation-results" style="padding: 40px; background-color: rgba(0,0,0,0.6); color: white;"></div>
+
+
   <!-- Social Media Icons -->
   <div class="social">
     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -171,20 +175,9 @@
   </div>
 
   <!-- JavaScript -->
-  <script>
-    function search() {
-      const query = document.getElementById('searchBox').value;
-      if (query.trim() === '') {
-        alert("Please enter a valid search query.");
-      } else {
-        alert("Searching for: " + query);
-      }
-    }
 
-    function resetSearch() {
-      document.getElementById('searchBox').value = '';
-    }
-  </script>
+<script src="travelRecommend.js"></script>
+
 
 </body>
 </html>
