@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - TravelBloom</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url("images/notepad-near-hat-with-earphones-money-seashells-camera.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      color: white;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 30px;
+    }
+
+    .navbar-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-left img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .site-name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .nav-links a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .social-icons {
+      position: fixed;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 20px;
+    }
+
+    .social-icons a:hover {
+      color: #ffd700;
+    }
+
+    .content {
+      padding: 80px 60px;
+    }
+
+    .about-heading {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .company-info {
+      font-size: 18px;
+      line-height: 1.8;
+      max-width: 900px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .team-section {
+      margin-top: 60px;
+    }
+
+    .team-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .team-members {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .team-card {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .team-card img {
+      width: 50px;
+      margin-bottom: 10px;
+    }
+
+    .team-name {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .team-role {
+      margin-top: 10px;
+      background-color: #4b0082;
+      padding: 6px 12px;
+      border-radius: 20px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-left">
+      <img src="images/logo.jpg" alt="Logo" />
+      <span class="site-name">TravelBloom</span>
+    </div>
+    <div class="nav-links">
+      <a href="travel_recommendation.html">Home</a>
+      <a href="about_us.html">About Us</a>
+      <a href="contact_us.html">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Social Media Icons -->
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <div class="about-heading">ABOUT US</div>
+
+    <div class="company-info">
+      <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers.</p>
+      <p>Our mission is to <strong>provide the best experience</strong> for people traveling to different destinations around the world.</p>
+      <p>Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in <strong>putting our customers first</strong> and working together to achieve our goals.</p>
+      <p>Feel free to explore our website to learn more about what we offer!</p>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team-section">
+      <div class="team-title">Our Team</div>
+      <div class="team-members">
+        <div class="team-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="John Doe" />
+          <div class="team-name">John Doe</div>
+          <div>John is responsible for overall strategy and direction.</div>
+          <div class="team-role">CEO</div>
+        </div>
+        <div class="team-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Celina Thomas" />
+          <div class="team-name">Celina Thomas</div>
+          <div>Celina manages team operations and development.</div>
+          <div class="team-role">Team Lead</div>
+        </div>
+        <div class="team-card">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Mike Tysen" />
+          <div class="team-name">Mike Tysen</div>
+          <div>Mike is responsible for delivery and logistics.</div>
+          <div class="team-role">Delivery Head</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
